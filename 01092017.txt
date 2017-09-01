@@ -1,0 +1,574 @@
+    1  ping 192.168.30.1
+    2  cd /var/www/
+    3  ls
+    4  exot
+    5  exit
+    6  ifconfig
+    7  shutdown now -r
+    8  pwd
+    9  ls
+   10  cd  download
+   11  cd  Download
+   12  cd  Downloads
+   13  ls
+   14  rpm -Uvh webtatic-release-7-3.src.rpm
+   15  cd..
+   16  cd /
+   17  yum update
+   18  service httpd status
+   19  ifconfig
+   20  subscription-manager register
+   21  subscription-manager refresh
+   22  subscription-manager status
+   23  yum install httpd
+   24  service httpd start
+   25  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+   26  yum search php70w
+   27  yum search php70
+   28  cd /var/www/
+   29  ls
+   30  cd html/
+   31  ls
+   32  unzip html.zip 
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls -l
+   37  cp html/html.zip /
+   38  ls
+   39  c
+   40  .
+   41  ls
+   42  cp html/html.zip /var/www/
+   43  ls
+   44  unzip html
+   45  ls
+   46  php
+   47  ls
+   48  cd /etc/
+   49  ls
+   50  php
+   51  php --version
+   52  php
+   53  yum check
+   54  php
+   55  clear
+   56  php
+   57  ls
+   58  cd ..
+   59  cd ls
+   60  ls
+   61  rm -Rf html.zip 
+   62  ls
+   63  php
+   64  cd tmp/
+   65  ls
+   66  cd tmp/
+   67  ls
+   68  vim packaging.log 
+   69  vim yum.log 
+   70  ls
+   71  php
+   72  ls
+   73  php
+   74  ls
+   75  php
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd var/
+   80  cd /etc/
+   81  ls
+   82  ifconfig
+   83  ls
+   84  php
+   85  exit
+   86  php
+   87  exot
+   88  exit
+   89  php
+   90  exit
+   91  yum update
+   92  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+   93  php
+   94  service httpd status
+   95  service httpd start
+   96  service httpd status
+   97  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+   98  epel-release >= 7 is needed by webtatic-release-7-3.noarch
+   99  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+  100  rpm -Uvh webtatic-release*rpm
+  101  rpm -Uvh webtatic-release.rpm
+  102  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+  103  rpm -Uvh http://repo.webtatic.com/yum/el7/x86_64/webtatic-release.rpm
+  104  rpm -Uvh ftp://ftp.pbone.net/mirror/repo.webtatic.com/yum/el7-testing/x86_64/RPMS/webtatic-release-7-3.noarch.rpm
+  105  yum install epel-release
+  106  rpm -Uvh http://repo.webtatic.com/yum/el7/x86_64/webtatic-release.rpm
+  107  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+  108  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  109  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+  110  php
+  111  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+  112  yum install php70w php70w-opcache
+  113  php
+  114  php --version
+  115  service httpd stop
+  116  service httpd start
+  117  cd ..
+  118  cd var/www/
+  119  ls
+  120  cd html
+  121  ls
+  122  cd sglabmed-backend
+  123  ls
+  124  php app/check.php 
+  125  yum search php70w
+  126  yum install php70w-intl.x86_64
+  127  yum install php70w-pgsql.x86_64 php70w-xml.x86_64 php70w-pdo.x86_64 php70w-mbstring.x86_64 php70w-mcrypt.x86_64 
+  128  service httpd stop
+  129  service httpd start
+  130  php app/check.php 
+  131  yum search php70w
+  132  service httpd stop
+  133  service httpd start
+  134  ls
+  135  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  136  ls
+  137  cd app/
+  138  ls
+  139  ks
+  140  cd cache/
+  141  ls
+  142  cd ..
+  143  ls
+  144  service httpd stop
+  145  service httpd start
+  146  ls
+  147  cd ..
+  148  ls
+  149  sudo chmod -Rf 777  /var/cache/*
+  150  ls
+  151  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  152  ls
+  153  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  154  sudo rm -Rf app/cache/* && sudo chmod -Rf 755 app/cache app/logs
+  155  cd app/
+  156  lÃ±s
+  157  ls
+  158  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  159  ls
+  160  cd ..
+  161  ls
+  162  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  163  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache/ app/logs
+  164  chmod -Rf 775 app/cache/*
+  165  chmod -Rf 777 app/cache/*
+  166  rm -Rf app/cache/
+  167  ls
+  168  cd app/
+  169  ls
+  170  mkdir cache
+  171  ls
+  172  chmod 775 cache/
+  173  ls
+  174  chmod 775 cache
+  175  ls
+  176  chmod -Rf cache
+  177  ls
+  178  chmod -Rf 777 cache
+  179  ls
+  180  cd. .
+  181  ls
+  182  cd ..
+  183  ls
+  184  php app/console server:run
+  185  service httpd stop
+  186  service httpd start
+  187  service httpd stop
+  188  service httpd start
+  189  chmod -rf 777 cache
+  190  ls
+  191  cd app/
+  192  l
+  193  ls
+  194  sudo chmod -R cache/
+  195  ls
+  196  sudo chmod -R 777 cache
+  197  ls
+  198  rm -rf cache/*
+  199  ls
+  200  sudo chmod -R 777 cache
+  201  php console server:run
+  202  sudo chmod -Rf 777 cache
+  203  sudo chmod -Rf 775 logs
+  204  sudo chmod -Rf 777 logs
+  205  sudo chmod -Rf 777 cache
+  206  getenforce
+  207  setenforce 0
+  208  getenforce
+  209  cd ..
+  210  cd sgcst-backend
+  211  ls
+  212  cd app/
+  213  ls
+  214  yum search php70w
+  215  yum install php70w-ldap.x86_64
+  216  service httpd stop
+  217  service httpd start
+  218  yum search php70w
+  219  cd ..
+  220  cd sgcst-backend
+  221  ls
+  222  cd web/
+  223  ls
+  224  cd uploads/
+  225  ls
+  226  sudo chmod -Rf 777 fuerzaMayor
+  227  sudo chmod -Rf 777 res
+  228  sudo chmod -Rf 777 restituciones/
+  229  sudo chmod -Rf 777 restituciones
+  230  ks
+  231  ls
+  232  ls -l
+  233  cd restituciones/
+  234  ls
+  235  rm -Rf *
+  236  ls
+  237  ifconfig
+  238  hostname
+  239  shutdown /?
+  240  shutdown now
+  241  service httpd start
+  242  service httpd status
+  243  cd /var/www/
+  244  cd html
+  245  cd sglabmed-backend
+  246  ls
+  247  php app/check.php 
+  248  cd ..
+  249  cd .
+  250  cd..
+  251  cd ..
+  252  history > historial.txt
+  253  yum search php70w
+  254  yum install php70w-b05 /]# php70w-intl.x86_64
+  255  yum install php70w-intl.x86_64
+  256  service httpd stop
+  257  service httpd start
+  258  cd /var/www/html
+  259  ls
+  260  cd sglabmed-backend
+  261  php app/check.php 
+  262  yum search php70w
+  263  yum install php70w-process.x86_64
+  264  service httpd stop
+  265  service httpd start
+  266  php app/check.php 
+  267  setenforce 0
+  268  getenforce
+  269  cd /opt
+  270  ll
+  271  rpm -i oracle-instantclient11.2-basic-11.2.0.3.0-1.x86_64.rpm
+  272  rpm -i oracle-instantclient11.2-devel-11.2.0.3.0-1.x86_64.rpm
+  273  find / -name orale
+  274  find / -name oracle
+  275  yum search php7
+  276  yum search php70w
+  277  yun install php70w-pdo.x86_64
+  278  yum install php70w-pdo.x86_64
+  279  cd..
+  280  cd  ..
+  281  cd ..
+  282  shutdown now -r
+  283  cd /var/www/html/sglabmed-backend
+  284  ls
+  285  php app/check.php 
+  286  cd ..
+  287  cd html
+  288  cd sgauth
+  289  ls
+  290  sudo rm -Rf app/cache/* && sudo chmod -Rf 777 app/cache app/logs
+  291  lls
+  292  ls
+  293  cd app/
+  294  ls
+  295  setenforce 0
+  296  service httpd start
+  297  service httpd status
+  298  cd /
+  299  ls
+  300  cd opt
+  301  ls
+  302  ftp 192.168.30.216
+  303  hostnamectl status
+  304  hostnamectl set-hostname elflwb01
+  305  hostnamectl status
+  306  hostname
+  307  ifconfig
+  308  vi /etc/hosts
+  309  ping elflwb01
+  310  ls
+  311  pwd
+  312  cd /
+  313  cd opt
+  314  ls
+  315  rpm -i *rpm
+  316  ifconfig
+  317  hostname
+  318  cd /
+  319  history > historial26042017.txt
+  320  ls
+  321  cd opt
+  322  ls
+  323  crontab -e
+  324  service httpd restart
+  325  service httpd status
+  326  service httpd restart
+  327  service httpd status
+  328  cd /
+  329  ls
+  330  history > historial13062017.txt
+  331  ping elfbd02
+  332  ping elflbd02
+  333  vi /etc/hosts
+  334  ping elflbd02
+  335  ifconfig
+  336  yum install php70w-pdo.x86_64
+  337  ls
+  338  cd opt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  339  ls
+  340  rpm -i *rpm
+  341  cd /usr/lib/oracle 
+  342  ls
+  343  cd 11.2
+  344  ls
+  345  cd client64
+  346  ls
+  347  cd lib
+  348  ls
+  349  cd /opt
+  350  ls
+  351  rpm -i oracle-instantclient11.2-sqlplus-11.2.0.3.0-1.x86_64.rpm
+  352  /usr/lib/oracle/11.2/client64/bin/sqlplus hr/hr@localhost/pdborcl
+  353  export LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib
+  354  /usr/lib/oracle/11.2/client64/bin/sqlplus hr/hr@localhost/pdborcl
+  355  yum install php70w-pear.noarch
+  356  yum install php70w-devel.x86_64
+  357  rpm -Va --nofiles --nodigest
+  358  yum install php70w-devel.x86_64
+  359  yum update
+  360  subscription-manager status 
+  361  subscription-manager -refresh
+  362  subscription-manager refresh
+  363  subscription-manager status
+  364  subscription-manager clean
+  365  subscription-manager register
+  366  subscription-manager status
+  367  yum install php70w-devel.x86_64
+  368  yum install php70w-pear.noarch
+  369  yum install php70w-devel.x86_64
+  370  subscription-manager 
+  371  yum install php70w-devel.x86_64
+  372  cd /
+  373  ls
+  374  tar xvzf oci8-2.1.3.tgz
+  375  cd oci8-2.1.3/
+  376  phpize
+  377  ./configure --with-oci8=shared,instantclient,/usr/lib/oracle/11.2/client64/lib/
+  378  make
+  379  make install
+  380  getenforce
+  381  setsebool -P httpd execmen 1
+  382  setsebool -P httpd_execmen 1
+  383  service httpd restart
+  384  subscription-manager status
+  385  yum install gcc-c++.x86_64
+  386  ifconfig
+  387  cd /etc
+  388  ls
+  389  cd networkmanager
+  390  cd networkManager
+  391  cd networks
+  392  cd sysconfig
+  393  ls
+  394  cd network
+  395  cd network-scripts
+  396  ñls
+  397  ls
+  398  vi ifcfg-eth0
+  399  ping repositorios
+  400  service nscd restart
+  401  /etc/init.d/nscd restart
+  402  shutdown now -r
+  403  ifconfig
+  404  hostname
+  405  ifconfig
+  406  hostname
+  407  cd /var/www/html/sglabmed-backend
+  408  ls
+  409  cd app/
+  410  ls
+  411  cd ..
+  412  cd sglabmed-backend
+  413  apachectl -k restart
+  414  apachectl -k stop
+  415  service httpd stop
+  416  service httpd start
+  417  service httpd stop
+  418  service httpd start
+  419  service httpd stop
+  420  service httpd start
+  421  history > historial.txt
+  422  ping elflbd02
+  423  ping elflbd02 -t
+  424  ping elflbd02 
+  425  cd. .
+  426  cd ..
+  427  cd /
+  428  ls
+  429  find . -name '*oci8.*'
+  430  ping ERP_BILLING
+  431  ping ERP_BILLING -t
+  432  ping ERP_BILLING 
+  433  ping elfsgc01
+  434  ping ERP_BILLING 
+  435  service httpd status
+  436  getenforce
+  437  service httpd stop
+  438  service httpd start
+  439  ping repositorios
+  440  ifconfig
+  441  ping ERP_BILLING 
+  442  ping ERP_BILLING.elfec.com
+  443  ping ERP_BILLING
+  444  service httpd start
+  445  service httpd status
+  446  hostname
+  447  ifconfig
+  448  vi /etc/resolv.conf
+  449  ping ERP_BILLING
+  450  cd /
+  451  cd oci8-2.1.3
+  452  ll
+  453  phize
+  454  phpize
+  455  ./configure --with-oci8=shared,instantclient,/usr/lib/oracle/11.2/client64/lib/
+  456  make install
+  457  getenforce
+  458  setenforce 0
+  459  getenforce
+  460  cd /
+  461  ls
+  462  cd opt
+  463  rpm -i *rpm
+  464  export LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib
+  465  /usr/lib/oracle/11.2/client64/bin/sqlplus hr/hr@localhost/pdborcl
+  466  subscription-manager status 
+  467  yum install php70w-pear.noarch
+  4://github.com/kplian8  cd /oci8-2.1.3/
+  469  phpize
+  470  ./configure --with-oci8=shared,instantclient,/usr/lib/oracle/11.2/client64/lib/
+  471  make install
+  472  vi /etc/php.ini
+  473  service httpd restart
+  474  getenforce
+  475  setsebool -P httpd_execmen 1
+  476  service httpd restart
+  477  service httpd stop
+  478  service httpd start
+  479  cd /var/www/html/kerp/pxp/utilidades/restaurar_bd/
+  480  ./restaurar_todo.py
+  481  cd ..
+  482  git clone https://github.com/kplian/sis_rastreo.git
+  483  cd pxp/utilidades/restaurar_bd/
+  484  ./restaurar_todo.py
+  485  psql
+  486  yum search postgres
+  487  ./restaurar_todo.py
+  488  /restaurar_todo.py[2~[Ccvgcvncvbncvbncvbncvbn[1~[1~[3~[3~[3~[3~[3~[3~
+  489  cd /var/www/html/kerp/pxp/utilidades/restaurar_bd/
+  490  ./restaurar_todo.py
+  491  cd /var/www/html/kerp/pxp/
+  492  git pull origin master
+  493  git fetch --all
+  494  git reset --hard origin/master
+  495  git pull origin master
+  496  cd utilidades/restaurar_bd/
+  497  ./restaurar_todo.py
+  498  chmod 700 -Rchmod 700 -Rchmod 700 -Rchmod 700 -Rchmod 700 -Rchmod 700 -R
+  499  chmod -R [2~ /root/.pgpass 
+  500  chmod 600 -R /root/.pgpass
+  501  cd /var/www/html/kerp/pxp/utilidades/restaurar_bd/
+  502  ./restaurar_todo.py 
+  503  psql -h 192.168.30.67 -U dbkerp_conexion -p 5433
+  504  psql -h 192.168.30.67 -U dbkerp_conexion -p 5433 -d dbkerp
+  505  chmod 600 -R /root/.pgpass
+  506  psql -h 192.168.30.67 -U dbkerp_conexion -p 5433 -d dbkerp
+  507  cd /var/www/html/kerp/pxp/utilidades/restaurar_bd/
+  508  ./restaurar_todo.py
+  509  cd /var/www/html/kerp/pxp/
+  510  cd utilidades/restaurar_bd/
+  511  ./restaurar_todo.py 
+  512  cd /var/www/html/kerp/pxp/
+  513  cd utilidades/restaurar_bd/
+  514  psql -h 192.168.30.67 -U dbkerp_conexion -p 5433 -d dbkerp
+  515  psql -h 192.168.30.67 -U postgres -p 5433 -d dbkerp
+  516  ./restaurar_todo.py 
+  517  psql --vercion
+  518  psql --version
+  519  pwd
+  520  echo $HOME
+  521  jose la bd ya fu restaurada o esta limpia
+  522  ls
+  523  cd /var/www/html/kerp/lib/
+  524  vim DatosGenerales.php 
+  525  cd ..
+  526  cd pxp/utilidades/
+  527  cd restaurar_bd/
+  528  ./restaurar_todo.py 
+  529  cd ..
+  530  cd sis_rastreo/
+  531  git pull origin master
+  532  cd ..
+  533  cd pxp/utilidades/restaurar_bd/
+  534  ./restaurar_todo.py 
+  535  cd /var/www/html/sgcst-backend
+  536  ls
+  537  cd web/
+  538  ls
+  539  cd uploads/
+  540  ls
+  541  cd restituciones/
+  542  ls
+  543  service httpd stop
+  544  service httpd start
+  545  service httpd stop
+  546  service httpd start
+  547  ls
+  548  history > 01092017.txt
