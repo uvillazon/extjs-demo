@@ -1,0 +1,82 @@
+    1  wget http://cdimage.debian.org/debian-cd/8.3.0/amd64/iso-cd/debian-8.3.0-amd64-CD-1.iso
+    2  Speedtest-cli --bytes
+    3  speedtest-cli --bytes
+    4  sudo apt-get update
+    5  sudo apt-get install python-pip
+    6  sudo pip install speedtest-cli
+    7  sudo apt-get install python-pip
+    8  wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip
+    9  curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+   10  reboot
+   11  ls
+   12  yum install wget
+   13  wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+   14  rpm -ivh mysql-community-release-el7-5.noarch.rpm
+   15  yum install mysql-server
+   16  mysql -version
+   17  mysql --version
+   18  yum install php56w php56w-opcache
+   19  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   20  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+   21  yum install php56w php56w-opcache
+   22  yum install php56w-fpm php56w-opcache
+   23  yum install yum-plugin-replace
+   24  yum replace php-common --replace-with=php56w-common
+   25  yum install php56w.x86_64 php56w-cli.x86_64
+   26  yum install php56w-intl.x86_64 php56w-mbstring.x86_64 php56w-mcrypt.x86_64 php56w-mysql.x86_64 php56w-pdo.x86_64 php56w-pgsql.x86_64 php56w-phpdbg.x86_64
+   27  apachectl restart
+   28  yum install git
+   29  yum install php56w-xml.x86_64 php56w-xmlrpc.x86_64
+   30  sudo yum install epel-release
+   31  sudo yum install phpmyadmin
+   32  sudo systemctl restart httpd.service
+   33  vim /etc/httpd/conf.d/phpMyAdmin.conf 
+   34  sudo systemctl restart httpd.service
+   35  sudo grep 'temporary password' /var/log/mysqld.log
+   36  sudo systemctl status mysqld
+   37  sudo mysql_secure_installation
+   38  systemctl start mysqld
+   39  systemctl stop mysqld
+   40  systemctl restart mysqld
+   41  systemctl status mysqld
+   42  mysql_secure_installation
+   43  mysql -u root
+   44  ls
+   45  wget http://educamobile.com/test/backup/admin28082017.sql
+   46  wget http://educamobile.com/backup/admin2808207.sql
+   47  ls -l
+   48  mysql -h localhost -u admin -p admin < admin2808207.sql 
+   49  ls
+   50  cd /var/www/html/
+   51  ls
+   52  git clone https://uvillazon@bitbucket.org/uvillazon/novamoda-auth.git
+   53  ls
+   54  cd ~
+   55  ls
+   56  curl -sS https://getcomposer.org/installer -o composer-setup.php
+   57  ls
+   58  php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   59  php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+   60  compser
+   61  composer
+   62  cd /var/www/html/novamoda-auth/
+   63  ls
+   64  composer install
+   65  php app/console cache:clear
+   66  vim /etc/php.ini 
+   67  apachectl restart
+   68  php app/check.php 
+   69  rm -Rf app/cache/*
+   70  rm -Rf app//logs/*
+   71  chmod 777 app/cache
+   72  chmod 777 app/logs
+   73  ls
+   74  cd app/logs/
+   75  ls
+   76  reboot
+   77  reboot
+   78  curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+   79  history > hist05092017.txt'
+;
+.
+   80  history > hist05092017.txt

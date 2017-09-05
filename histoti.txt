@@ -1,0 +1,207 @@
+    1  ls
+    2  yum install php56w php56w-opcache
+    3  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    4  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+    5  yum install php56w php56w-opcache
+    6  yum install php56w-fpm php56w-opcache
+    7  yum install yum-plugin-replace
+    8  yum replace php-common --replace-with=php56w-common
+    9  service http 
+   10  apachectl stop
+   11  apachectl start
+   12  apachectl stop
+   13  apachectl start
+   14  yum install php7
+   15  yum install php56
+   16  yum search php56
+   17  yum install php56
+   18  yum install php56w.x86_64 php56w-cli.x86_64
+   19  yum install php56w-intl.x86_64 php56w-mbstring.x86_64 php56w-mcrypt.x86_64 php56w-mysql.x86_64 php56w-pdo.x86_64 php56w-pgsql.x86_64 php56w-phpdbg.x86_64
+   20  apachectl restart
+   21  yum install git
+   22  cd /var/www/html/
+   23  ls
+   24  git clone https://uvillazon@bitbucket.org/uvillazon/novamoda-auth.git
+   25  ls
+   26  php -v
+   27  php novamoda-auth/app/check.php 
+   28  curl -sS https://getcomposer.org/installer -o composer-setup.php
+   29  ls
+   30  php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   31  php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+   32  ls
+   33  cd novamoda-auth/
+   34  composer install
+   35  ls
+   36  composer update
+   37  yum install curl
+   38  yum search php5
+   39  yum install php56w-cli.x86_64
+   40  yum install unzip
+   41  apachectl restart
+   42  composer instal
+   43  composer install
+   44  ls
+   45  apachectl restart
+   46  composer install
+   47  php --ini
+   48  composer update
+   49  sudo yum -y update
+   50  cd /tmp
+   51  sudo curl -sS https://getcomposer.org/installer | php
+   52  ls
+   53  php composer.phar 
+   54  php composer.phar install
+   55  mv composer.phar /usr/local/bin/composer
+   56  ls
+   57  cd /var/www/html/
+   58  ls
+   59  cd novamoda-auth/
+   60  ls
+   61  composer install
+   62  composer
+   63  composer status
+   64  composer install
+   65  clear
+   66  composer install
+   67  yum search php5
+   68  yum install php56w-xml.x86_64 php56w-xmlrpc.x86_64
+   69  apachectl restart
+   70  composer install
+   71  php app/console cache:clear
+   72  yum search mysql
+   73  search mysql57
+   74  yum search mysql57
+   75  yum search mysql5
+   76  yum search mysq-ser
+   77  wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+   78  ls
+   79  md5sum mysql57-community-release-el7-9.noarch.rpm
+   80  ls
+   81  sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+   82  sudo yum install mysql-server
+   83  sudo systemctl start mysqld
+   84  sudo systemctl status mysqld
+   85  php app/check.php 
+   86  yum search php5
+   87  php app/console cache:clear
+   88  sudo yum install epel-release
+   89  sudo yum install phpmyadmin
+   90  sudo nano /etc/httpd/conf.d/phpMyAdmin.conf
+   91  vim /etc/httpd/conf.d/phpMyAdmin.conf 
+   92  sudo systemctl restart httpd.service
+   93  sudo grep 'temporary password' /var/log/mysqld.log
+   94  sudo systemctl status mysqld
+   95  sudo mysql_secure_installation
+   96  ls
+   97  php app/console cahce
+   98  php app/console cache:clear
+   99  cd app/
+  100  ls
+  101  chmod 777 cache
+  102  ls
+  103  rm -Rf cache/*
+  104  ls
+  105  chmod 777 logs/
+  106  ls
+  107  mysql -h localhost -u root -p
+  108  ls
+  109  cd ..
+  110  ls
+  111  git status
+  112  cd ..
+  113  ls
+  114  cd ~
+  115  ls
+  116  wget http://educamobile.com/test/backup/admin28082017.sql
+  117  wget http://educamobile.com/test/backup/admin2808207.sql
+  118  ls
+  119  wget http://educamobile.com/backup/admin2808207.sql
+  120  ls
+  121  mysql -localhost -u admin -p > admin2808207.sql
+  122  mysql -localhost -u admin -p > admin2808207.sql.1 
+  123  mysql -h localhost -u admin -p > admin2808207.sql.1 
+  124  ls -l
+  125  rm admin2808207.sql
+  126  ls
+  127  rm admin2808207.sql.1 
+  128  ls
+  129  apachectl restart
+  130  wget http://educamobile.com/backup/admin2808207.sql
+  131  mysql -h localhost -u admin -p > admin2808207.sql 
+  132  mysql -h localhost -u admin -p admin  > admin2808207.sql 
+  133  mysql -h localhost -u admin -p admin < admin2808207.sql 
+  134  mysql -h localhost -u admin -p < admin2808207.sql 
+  135  mysql -h localhost -u admin admin < admin2808207.sql 
+  136  mysql -h localhost -u admin -p admin < admin2808207.sql 
+  137  mysql -h localhost -u admin -p admin admin < admin2808207.sql 
+  138  mysql -h localhost -u root -p admin admin < admin2808207.sql 
+  139  mysql -h localhost -u root -p admin  <admin2808207.sql 
+  140  mysql -h localhost -u root -p   <admin2808207.sql 
+  141  mysql -h localhost -u admin
+  142  mysql -h localhost -u admin -p
+  143  ls
+  144  mysql -h localhost -u root -p   > admin2808207.sql 
+  145  ls
+  146  mysqml -h localhost -p admin > admin2808207.sql 
+  147  mysql -h localhost -p admin > admin2808207.sql 
+  148  mysql -h localhost -p admin < admin2808207.sql 
+  149  cd /etc/my.cnf/
+  150  ls
+  151  cd /etc/
+  152  cd my.cnf
+  153  ls
+  154  service mysqld restart
+  155  cd ~
+  156  mysql -h localhost -u admin -p  > admin2808207.sql 
+  157  mysql -h localhost -u admin -p  < admin2808207.sql 
+  158  ls
+  159  mysql <admin2808207.sql 
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd root/
+  164  ls
+  165  cd ..
+  166  ls
+  167  cd root/
+  168  ls
+  169  wget http://educamobile.com/backup/admin2808207.sql
+  170  mysql -h localhost -u admin -p  < admin2808207.sql 
+  171  ls
+  172  sudo vim /etc/httpd/conf.d/phpMyAdmin.conf 
+  173  ls
+  174  sudo service httpd restart
+  175  sudo vim /etc/httpd/conf.d/phpMyAdmin.conf 
+  176  ls
+  177  sudo service httpd restart
+  178  sudo vim /etc/httpd/conf.d/phpMyAdmin.conf 
+  179  sudo service httpd restart
+  180  sudo service httpd stop
+  181  sudo service httpd start
+  182  sudo vim /etc/httpd/conf.d/phpMyAdmin.conf 
+  183  sudo service httpd restart
+  184  sudo vim /etc/httpd/conf.d/phpMyAdmin.conf 
+  185  sudo service httpd restart
+  186  sudo vim /etc/httpd/conf.modules.d/00-base.conf 
+  187  sudo systemctl restart httpd
+  188  sudo vim /etc/httpd/conf/httpd.conf 
+  189  sudo systemctl restart httpd
+  190  cd /var/www/html/
+  191  ls
+  192  cd novamoda-auth/
+  193  ls
+  194  cd web/
+  195  ls
+  196  vim .htaccess 
+  197  ls
+  198  cd ..
+  199  ls
+  200  unzip web.zip 
+  201  ls
+  202  sudo systemctl restart httpd
+  203  ls
+  204  ls -l
+  205  mkdir buggy
+  206  cd buggy/
+  207  history > histoti.txt
